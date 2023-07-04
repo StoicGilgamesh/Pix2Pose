@@ -1,0 +1,9 @@
+#tensorflow-gpu==2.8
+keras
+opencv-python
+opencv-contrib-python
+transforms3d
+matplotlib
+imgaug
+pypng
+pytz

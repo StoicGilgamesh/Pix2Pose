@@ -1,0 +1,16 @@
+{
+  "backbone":"paper",
+  "dataset_dir": "/home/stoic_gilgamesh/PhD/RoadmapWithStefan/Pix2Pose/dataset/linemod/",
+  "dataset_names": ["hb","lmo","ycbv","tless","itodd","tudl","icbin"],
+  "detection_pipeline": "rcnn",
+  "path_to_detection_pipeline": "/home/stoic_gilgamesh/PhD/RoadmapWithStefan/Pix2Pose/Mask_RCNN" ,  
+  "path_to_output": "/home/stoic_gilgamesh/PhD/RoadmapWithStefan/Pix2Pose/lm_result" ,
+  "outlier_th":[0.15,0.25,0.35],
+  "inlier_th":0.15,
+  "norm_factor_fn":"norm_factor.json",
+  "background_imgs_for_training":"/home/stoic_gilgamesh/PhD/RoadmapWithStefan/coco/train2017/",
+  "score_type":2,
+  "task_type":2,
+  "cand_factor":2,
+  "test_target":"test_targets_bop19"  
+}
